@@ -41,7 +41,7 @@
             this.button_chọn_thư_mục.TabIndex = 0;
             this.button_chọn_thư_mục.Text = "Chọn...";
             this.button_chọn_thư_mục.UseVisualStyleBackColor = true;
-            this.button_chọn_thư_mục.Click += new System.EventHandler(this.button1_Click);
+            this.button_chọn_thư_mục.Click += new System.EventHandler(this.button_chọn_thư_mục_Click);
             // 
             // label_chọn_thư_mục_chứa_dữ_liệu
             // 

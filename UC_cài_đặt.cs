@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace LOS_Installer
 {
@@ -22,9 +23,20 @@ namespace LOS_Installer
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_bắt_đầu_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void button_chọn_thư_mục_Click(object sender, EventArgs e)
+        {
+            CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+            dialog.InitialDirectory = "D:\\";
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                textBox_thư_mục.Text = dialog.FileName;
+            }
         }
     }
 }
