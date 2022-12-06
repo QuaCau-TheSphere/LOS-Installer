@@ -31,6 +31,7 @@
             this.button_chọn_thư_mục = new System.Windows.Forms.Button();
             this.label_chọn_thư_mục_chứa_dữ_liệu = new System.Windows.Forms.Label();
             this.textBox_thư_mục = new System.Windows.Forms.TextBox();
+            this.button_bắt_đầu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_chọn_thư_mục
@@ -51,7 +52,6 @@
             this.label_chọn_thư_mục_chứa_dữ_liệu.Size = new System.Drawing.Size(152, 15);
             this.label_chọn_thư_mục_chứa_dữ_liệu.TabIndex = 1;
             this.label_chọn_thư_mục_chứa_dữ_liệu.Text = "Chọn thư mục chứa dữ liệu";
-            this.label_chọn_thư_mục_chứa_dữ_liệu.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox_thư_mục
             // 
@@ -60,10 +60,25 @@
             this.textBox_thư_mục.Size = new System.Drawing.Size(332, 23);
             this.textBox_thư_mục.TabIndex = 2;
             // 
+            // button_bắt_đầu
+            // 
+            this.button_bắt_đầu.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button_bắt_đầu.BackColor = System.Drawing.Color.Goldenrod;
+            this.button_bắt_đầu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_bắt_đầu.Location = new System.Drawing.Point(169, 91);
+            this.button_bắt_đầu.Name = "button_bắt_đầu";
+            this.button_bắt_đầu.Size = new System.Drawing.Size(101, 62);
+            this.button_bắt_đầu.TabIndex = 3;
+            this.button_bắt_đầu.Text = "Bắt đầu";
+            this.button_bắt_đầu.UseVisualStyleBackColor = false;
+            this.button_bắt_đầu.Click += new System.EventHandler(this.button_bắt_đầu_Click);
+
+            // 
             // UC_cài_đặt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button_bắt_đầu);
             this.Controls.Add(this.textBox_thư_mục);
             this.Controls.Add(this.label_chọn_thư_mục_chứa_dữ_liệu);
             this.Controls.Add(this.button_chọn_thư_mục);
@@ -79,5 +94,6 @@
         private Button button_chọn_thư_mục;
         private Label label_chọn_thư_mục_chứa_dữ_liệu;
         private TextBox textBox_thư_mục;
+        private Button button_bắt_đầu;
     }
 }

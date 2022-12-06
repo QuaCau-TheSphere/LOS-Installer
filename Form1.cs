@@ -4,16 +4,13 @@ namespace LOS_Installer
     {
         public Form1()
         {
-            InitializeComponent();        }
+            InitializeComponent();
+            UC_cài_đặt.Visible = false;
+        }
 
         private void button_cài_đặt_Click(object sender, EventArgs e)
         {
             UC_cài_đặt.Visible = true;
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void UC_cài_đặt_Load(object sender, EventArgs e)
