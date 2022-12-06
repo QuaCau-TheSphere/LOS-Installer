@@ -31,7 +31,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_cài_đặt = new System.Windows.Forms.Button();
             this.uC_cài_đặt1 = new LOS_Installer.UC_cài_đặt();
-            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,20 +63,13 @@
             this.uC_cài_đặt1.Name = "uC_cài_đặt1";
             this.uC_cài_đặt1.Size = new System.Drawing.Size(460, 271);
             this.uC_cài_đặt1.TabIndex = 2;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(12, 142);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(255, 132);
-            this.panel1.TabIndex = 3;
+            this.uC_cài_đặt1.Load += new System.EventHandler(this.uC_cài_đặt1_Load);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 450);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.uC_cài_đặt1);
             this.Controls.Add(this.button_cài_đặt);
             this.Controls.Add(this.pictureBox1);
@@ -93,6 +85,5 @@
         private PictureBox pictureBox1;
         private Button button_cài_đặt;
         private UC_cài_đặt uC_cài_đặt1;
-        private Panel panel1;
     }
 }

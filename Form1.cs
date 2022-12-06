@@ -14,5 +14,10 @@ namespace LOS_Installer
         {
 
         }
+
+        private void uC_cài_đặt1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
