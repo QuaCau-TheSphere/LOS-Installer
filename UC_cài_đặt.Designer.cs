@@ -32,6 +32,7 @@
             this.label_chọn_thư_mục_chứa_dữ_liệu = new System.Windows.Forms.Label();
             this.textBox_thư_mục = new System.Windows.Forms.TextBox();
             this.button_bắt_đầu = new System.Windows.Forms.Button();
+            this.textBoxLog = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button_chọn_thư_mục
@@ -72,12 +73,20 @@
             this.button_bắt_đầu.Text = "Bắt đầu";
             this.button_bắt_đầu.UseVisualStyleBackColor = false;
             this.button_bắt_đầu.Click += new System.EventHandler(this.button_bắt_đầu_Click);
-
+            // 
+            // textBoxLog
+            // 
+            this.textBoxLog.Location = new System.Drawing.Point(26, 91);
+            this.textBoxLog.Multiline = true;
+            this.textBoxLog.Name = "textBoxLog";
+            this.textBoxLog.Size = new System.Drawing.Size(413, 219);
+            this.textBoxLog.TabIndex = 4;
             // 
             // UC_cài_đặt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.button_bắt_đầu);
             this.Controls.Add(this.textBox_thư_mục);
             this.Controls.Add(this.label_chọn_thư_mục_chứa_dữ_liệu);
@@ -95,5 +104,6 @@
         private Label label_chọn_thư_mục_chứa_dữ_liệu;
         private TextBox textBox_thư_mục;
         private Button button_bắt_đầu;
+        private TextBox textBoxLog;
     }
 }
