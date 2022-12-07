@@ -31,6 +31,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_cài_đặt = new System.Windows.Forms.Button();
             this.UC_cài_đặt = new LOS_Installer.UC_cài_đặt();
+            this.UC_triết_lý = new LOS_Installer.UC_triết_lý();
+            this.button_triết_lý = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,11 +66,31 @@
             this.UC_cài_đặt.TabIndex = 2;
             this.UC_cài_đặt.Load += new System.EventHandler(this.UC_cài_đặt_Load);
             // 
+            // UC_triết_lý
+            // 
+            this.UC_triết_lý.Location = new System.Drawing.Point(152, 42);
+            this.UC_triết_lý.Name = "UC_triết_lý";
+            this.UC_triết_lý.Size = new System.Drawing.Size(460, 271);
+            this.UC_triết_lý.TabIndex = 3;
+            // 
+            // button_triết_lý
+            // 
+            this.button_triết_lý.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_triết_lý.Location = new System.Drawing.Point(42, 86);
+            this.button_triết_lý.Name = "button_triết_lý";
+            this.button_triết_lý.Size = new System.Drawing.Size(104, 38);
+            this.button_triết_lý.TabIndex = 4;
+            this.button_triết_lý.Text = "Triết lý";
+            this.button_triết_lý.UseVisualStyleBackColor = true;
+            this.button_triết_lý.Click += new System.EventHandler(this.button_triết_lý_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 450);
+            this.Controls.Add(this.button_triết_lý);
+            this.Controls.Add(this.UC_triết_lý);
             this.Controls.Add(this.UC_cài_đặt);
             this.Controls.Add(this.button_cài_đặt);
             this.Controls.Add(this.pictureBox1);
@@ -84,5 +106,7 @@
         private PictureBox pictureBox1;
         private Button button_cài_đặt;
         private UC_cài_đặt UC_cài_đặt;
+        private UC_triết_lý UC_triết_lý;
+        private Button button_triết_lý;
     }
 }

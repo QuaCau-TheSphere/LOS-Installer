@@ -49,6 +49,7 @@ namespace LOS_Installer
                 proc.StartInfo.RedirectStandardOutput = true;
                 proc.StartInfo.RedirectStandardError = true;
                 proc.StartInfo.CreateNoWindow = true;
+                proc.StartInfo.Arguments = path;
                 if (proc.Start())
                 {
                     void outputCallback(string data)
