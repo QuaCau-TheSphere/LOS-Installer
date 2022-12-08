@@ -34,6 +34,7 @@
             this.UC_triết_lý = new LOS_Installer.UC_triết_lý();
             this.button_triết_lý = new System.Windows.Forms.Button();
             this.button_hỗ_trợ = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,7 +66,6 @@
             this.UC_cài_đặt.Name = "UC_cài_đặt";
             this.UC_cài_đặt.Size = new System.Drawing.Size(460, 271);
             this.UC_cài_đặt.TabIndex = 2;
-            this.UC_cài_đặt.Load += new System.EventHandler(this.UC_cài_đặt_Load);
             // 
             // UC_triết_lý
             // 
@@ -94,12 +94,23 @@
             this.button_hỗ_trợ.TabIndex = 5;
             this.button_hỗ_trợ.Text = "Hỗ trợ";
             this.button_hỗ_trợ.UseVisualStyleBackColor = true;
+            this.button_hỗ_trợ.Click += new System.EventHandler(this.button_hỗ_trợ_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(-17, 171);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 28);
+            this.label1.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button_hỗ_trợ);
             this.Controls.Add(this.button_triết_lý);
             this.Controls.Add(this.UC_triết_lý);
@@ -110,6 +121,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -121,5 +133,6 @@
         private UC_triết_lý UC_triết_lý;
         private Button button_triết_lý;
         private Button button_hỗ_trợ;
+        private Label label1;
     }
 }

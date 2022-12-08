@@ -57,23 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Vault dữ liệu của Quả Cầu là nơi để bạn:
-
-- tìm gợi ý và hướng dẫn để rèn luyện kỹ năng mới
-
-- củng cố, đào sâu kiến thức học trong trường hoặc tìm gợi ý để bài luận trong trường có tính liên ngành hơn
-
-- tham khảo cách quản lý dự án trên Obsidian và Git
-
-- quan sát hoặc đóng góp cho Quả Cầu 
-
-
-
-Xem thêm:
-
-- Một đám mây chim sáo
-
-- Truyện ngụ ngôn về những người mong đợi</value>
-  </data>
 </root>

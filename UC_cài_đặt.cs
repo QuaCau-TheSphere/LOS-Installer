@@ -51,7 +51,7 @@ namespace LOS_Installer
             await Task.Run(() => {
                 var proc = new Process();
                 string tempFile = path + "temporary_script.bat";
-                File.WriteAllText(tempFile, Properties.Resources.test);
+                File.WriteAllText(tempFile, Properties.Resources.Script_cài_chương_trình);
                 proc.StartInfo.FileName = @"temporary_script.bat";
                 proc.StartInfo.RedirectStandardOutput = true;
                 proc.StartInfo.RedirectStandardError = true;

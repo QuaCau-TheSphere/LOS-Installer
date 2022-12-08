@@ -71,60 +71,46 @@ namespace LOS_Installer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized string similar to {\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+        ///{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f34\fbidi \fr [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static byte[] Git_2_38_1_64_bit {
+        internal static string Nội_dung_UC_triết_lý {
             get {
-                object obj = ResourceManager.GetObject("Git-2.38.1-64-bit", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetString("Nội dung UC triết lý", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to chdir
+        ///chdir %1
+        ///winget install --id Git.Git -e --source winget 
+        ///winget install Obsidian
+        ///
+        ///git config --global core.quotePath false
+        ///git config --global core.longpaths true
+        ///git config --global core.autocrlf true
+        ///git config --global core.safecrlf false
+        ///git config --global --add safe.directory &apos;*&apos;
+        ///
+        ///git clone https://github.com/QuaCau-TheSphere/LandofSpheres
+        ///
+        ///set &quot;doubleSlashes=%path:\=\\%&quot; 
+        ///set &quot;obsidianString={&quot;vaults&quot;:{&quot;0123456789abcdef&quot;:{&quot;path&quot;:&quot;%doubleSlashes%&quot;,&quot;open&quot;:true}}}&quot; 
+        ///C:
+        ///cd %appdata% [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Script_cài_chương_trình {
+            get {
+                return ResourceManager.GetString("Script cài chương trình", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] GitKrakenSetup {
+        internal static byte[] SVN_Avo {
             get {
-                object obj = ResourceManager.GetObject("GitKrakenSetup", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] Obsidian_1_0_3 {
-            get {
-                object obj = ResourceManager.GetObject("Obsidian.1.0.3", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] script {
-            get {
-                object obj = ResourceManager.GetObject("script", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to git -h.
-        /// </summary>
-        internal static string test {
-            get {
-                return ResourceManager.GetString("test", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] test1 {
-            get {
-                object obj = ResourceManager.GetObject("test1", resourceCulture);
+                object obj = ResourceManager.GetObject("SVN_Avo", resourceCulture);
                 return ((byte[])(obj));
             }
         }
