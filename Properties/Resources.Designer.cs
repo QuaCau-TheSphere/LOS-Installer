@@ -69,5 +69,64 @@ namespace LOS_Installer.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Git_2_38_1_64_bit {
+            get {
+                object obj = ResourceManager.GetObject("Git-2.38.1-64-bit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] GitKrakenSetup {
+            get {
+                object obj = ResourceManager.GetObject("GitKrakenSetup", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Obsidian_1_0_3 {
+            get {
+                object obj = ResourceManager.GetObject("Obsidian.1.0.3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] script {
+            get {
+                object obj = ResourceManager.GetObject("script", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to git -h.
+        /// </summary>
+        internal static string test {
+            get {
+                return ResourceManager.GetString("test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] test1 {
+            get {
+                object obj = ResourceManager.GetObject("test1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

@@ -21,5 +21,10 @@ namespace LOS_Installer
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

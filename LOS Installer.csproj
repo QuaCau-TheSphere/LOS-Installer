@@ -10,6 +10,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\test.bat" />
+    <None Remove="Resources\test.ps1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\test.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlRenderer.WinForms" Version="1.5.0.6" />
     <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.4" />
   </ItemGroup>
 

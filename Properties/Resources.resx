@@ -121,4 +121,22 @@
   <data name="Chào mừng đến với LOS (hanoi)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chào mừng đến với LOS (hanoi).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Git-2.38.1-64-bit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git-2.38.1-64-bit.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GitKrakenSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GitKrakenSetup.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Obsidian.1.0.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obsidian.1.0.3.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="script" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\script.ps1;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="test1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test.ps1;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

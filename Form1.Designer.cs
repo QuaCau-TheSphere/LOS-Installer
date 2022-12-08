@@ -33,6 +33,7 @@
             this.UC_cài_đặt = new LOS_Installer.UC_cài_đặt();
             this.UC_triết_lý = new LOS_Installer.UC_triết_lý();
             this.button_triết_lý = new System.Windows.Forms.Button();
+            this.button_hỗ_trợ = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,11 +85,22 @@
             this.button_triết_lý.UseVisualStyleBackColor = true;
             this.button_triết_lý.Click += new System.EventHandler(this.button_triết_lý_Click);
             // 
+            // button_hỗ_trợ
+            // 
+            this.button_hỗ_trợ.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_hỗ_trợ.Location = new System.Drawing.Point(42, 130);
+            this.button_hỗ_trợ.Name = "button_hỗ_trợ";
+            this.button_hỗ_trợ.Size = new System.Drawing.Size(104, 38);
+            this.button_hỗ_trợ.TabIndex = 5;
+            this.button_hỗ_trợ.Text = "Hỗ trợ";
+            this.button_hỗ_trợ.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 450);
+            this.Controls.Add(this.button_hỗ_trợ);
             this.Controls.Add(this.button_triết_lý);
             this.Controls.Add(this.UC_triết_lý);
             this.Controls.Add(this.UC_cài_đặt);
@@ -108,5 +120,6 @@
         private UC_cài_đặt UC_cài_đặt;
         private UC_triết_lý UC_triết_lý;
         private Button button_triết_lý;
+        private Button button_hỗ_trợ;
     }
 }

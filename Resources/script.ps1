@@ -1,4 +1,9 @@
-"Cài Git"
+chdir
+chdir %1
+
+echo "=== Tải Git === "
+ winget install --id Git.Git -e --source winget 
+echo "=== Cài Git === "
 .\Git-*.exe /SILENT
 
 "git config --global core.quotePath false" 
@@ -19,7 +24,10 @@ git config --global --add safe.directory '*'
 "git clone https://github.com/QuaCau-TheSphere/LandofSpheres" 
 git clone https://github.com/QuaCau-TheSphere/LandofSpheres
 
-"Cài Obsidian" 
+echo "=== Tải Obsidian ===" 
+winget install Obsidian
+
+echo "=== Cài Obsidian ===" 
 .\Obsidian*.exe /S
 
 "Cài GitKraken" 

@@ -76,10 +76,11 @@
             // 
             // textBoxLog
             // 
-            this.textBoxLog.Location = new System.Drawing.Point(26, 91);
+            this.textBoxLog.Location = new System.Drawing.Point(26, 74);
             this.textBoxLog.Multiline = true;
             this.textBoxLog.Name = "textBoxLog";
-            this.textBoxLog.Size = new System.Drawing.Size(413, 219);
+            this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxLog.Size = new System.Drawing.Size(413, 163);
             this.textBoxLog.TabIndex = 4;
             // 
             // UC_cài_đặt
