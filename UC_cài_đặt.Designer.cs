@@ -37,9 +37,11 @@
             // 
             // button_chọn_thư_mục
             // 
-            this.button_chọn_thư_mục.Location = new System.Drawing.Point(364, 44);
+            this.button_chọn_thư_mục.AutoSize = true;
+            this.button_chọn_thư_mục.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_chọn_thư_mục.Location = new System.Drawing.Point(364, 45);
             this.button_chọn_thư_mục.Name = "button_chọn_thư_mục";
-            this.button_chọn_thư_mục.Size = new System.Drawing.Size(75, 23);
+            this.button_chọn_thư_mục.Size = new System.Drawing.Size(75, 30);
             this.button_chọn_thư_mục.TabIndex = 0;
             this.button_chọn_thư_mục.Text = "Chọn...";
             this.button_chọn_thư_mục.UseVisualStyleBackColor = true;
@@ -48,24 +50,29 @@
             // label_chọn_thư_mục_chứa_dữ_liệu
             // 
             this.label_chọn_thư_mục_chứa_dữ_liệu.AutoSize = true;
-            this.label_chọn_thư_mục_chứa_dữ_liệu.Location = new System.Drawing.Point(26, 26);
+            this.label_chọn_thư_mục_chứa_dữ_liệu.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_chọn_thư_mục_chứa_dữ_liệu.Location = new System.Drawing.Point(20, 20);
             this.label_chọn_thư_mục_chứa_dữ_liệu.Name = "label_chọn_thư_mục_chứa_dữ_liệu";
-            this.label_chọn_thư_mục_chứa_dữ_liệu.Size = new System.Drawing.Size(152, 15);
+            this.label_chọn_thư_mục_chứa_dữ_liệu.Size = new System.Drawing.Size(187, 20);
             this.label_chọn_thư_mục_chứa_dữ_liệu.TabIndex = 1;
             this.label_chọn_thư_mục_chứa_dữ_liệu.Text = "Chọn thư mục chứa dữ liệu";
             // 
             // textBox_thư_mục
             // 
-            this.textBox_thư_mục.Location = new System.Drawing.Point(26, 45);
+            this.textBox_thư_mục.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_thư_mục.Location = new System.Drawing.Point(20, 45);
             this.textBox_thư_mục.Name = "textBox_thư_mục";
-            this.textBox_thư_mục.Size = new System.Drawing.Size(332, 23);
+            this.textBox_thư_mục.Size = new System.Drawing.Size(338, 27);
             this.textBox_thư_mục.TabIndex = 2;
             // 
             // button_bắt_đầu
             // 
-            this.button_bắt_đầu.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button_bắt_đầu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_bắt_đầu.AutoSize = true;
             this.button_bắt_đầu.BackColor = System.Drawing.Color.Goldenrod;
-            this.button_bắt_đầu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_bắt_đầu.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_bắt_đầu.ForeColor = System.Drawing.Color.Black;
             this.button_bắt_đầu.Location = new System.Drawing.Point(169, 91);
             this.button_bắt_đầu.Name = "button_bắt_đầu";
             this.button_bắt_đầu.Size = new System.Drawing.Size(101, 62);
@@ -76,11 +83,12 @@
             // 
             // textBoxLog
             // 
-            this.textBoxLog.Location = new System.Drawing.Point(26, 74);
+            this.textBoxLog.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxLog.Location = new System.Drawing.Point(20, 78);
             this.textBoxLog.Multiline = true;
             this.textBoxLog.Name = "textBoxLog";
             this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxLog.Size = new System.Drawing.Size(413, 163);
+            this.textBoxLog.Size = new System.Drawing.Size(419, 173);
             this.textBoxLog.TabIndex = 4;
             // 
             // UC_cài_đặt
