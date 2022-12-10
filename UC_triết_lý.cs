@@ -16,9 +16,9 @@ namespace LOS_Installer
         public UC_triết_lý()
         {
             InitializeComponent();
-            string tempFile2 = System.IO.Path.GetTempFileName().Replace(".tmp", ".rtf");
+            string tempFile2 = System.IO.Path.GetTempPath() + Guid.NewGuid().ToString() + ".rtf";
             File.WriteAllText(tempFile2, Properties.Resources.Nội_dung_UC_triết_lý);
-            richTextBox1.LoadFile(tempFile2);
+            richTextBoxTriếtLý.LoadFile(tempFile2);
         }
 
         private void richTextBox1_LinkClicked(object sender, LinkClickedEventArgs e)

@@ -29,32 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_gặp_nhau));
-            this.richTextBox_gặp_nhau = new System.Windows.Forms.RichTextBox();
             this.button_discord = new System.Windows.Forms.Button();
             this.button_facebook = new System.Windows.Forms.Button();
+            this.textBoxGặpNhau = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // richTextBox_gặp_nhau
-            // 
-            this.richTextBox_gặp_nhau.BackColor = System.Drawing.SystemColors.Control;
-            this.richTextBox_gặp_nhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox_gặp_nhau.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox_gặp_nhau.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.richTextBox_gặp_nhau.Location = new System.Drawing.Point(20, 20);
-            this.richTextBox_gặp_nhau.Name = "richTextBox_gặp_nhau";
-            this.richTextBox_gặp_nhau.ReadOnly = true;
-            this.richTextBox_gặp_nhau.Size = new System.Drawing.Size(403, 215);
-            this.richTextBox_gặp_nhau.TabIndex = 0;
-            this.richTextBox_gặp_nhau.Text = resources.GetString("richTextBox_gặp_nhau.Text");
-            this.richTextBox_gặp_nhau.Enter += new System.EventHandler(this.richTextBox_gặp_nhau_Enter);
             // 
             // button_discord
             // 
             this.button_discord.BackgroundImage = global::LOS_Installer.Properties.Resources.discord;
             this.button_discord.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button_discord.Location = new System.Drawing.Point(254, 191);
+            this.button_discord.Location = new System.Drawing.Point(319, 197);
             this.button_discord.Name = "button_discord";
-            this.button_discord.Size = new System.Drawing.Size(100, 50);
+            this.button_discord.Size = new System.Drawing.Size(175, 89);
             this.button_discord.TabIndex = 2;
             this.button_discord.TabStop = false;
             this.button_discord.Click += new System.EventHandler(this.button_discord_Click);
@@ -63,31 +49,46 @@
             // 
             this.button_facebook.BackgroundImage = global::LOS_Installer.Properties.Resources.facebook2;
             this.button_facebook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button_facebook.Location = new System.Drawing.Point(82, 191);
+            this.button_facebook.Location = new System.Drawing.Point(75, 197);
             this.button_facebook.Name = "button_facebook";
-            this.button_facebook.Size = new System.Drawing.Size(100, 50);
+            this.button_facebook.Size = new System.Drawing.Size(175, 89);
             this.button_facebook.TabIndex = 3;
             this.button_facebook.UseVisualStyleBackColor = true;
             this.button_facebook.Click += new System.EventHandler(this.button_facebook_Click);
+            // 
+            // textBoxGặpNhau
+            // 
+            this.textBoxGặpNhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxGặpNhau.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxGặpNhau.Location = new System.Drawing.Point(30, 30);
+            this.textBoxGặpNhau.Multiline = true;
+            this.textBoxGặpNhau.Name = "textBoxGặpNhau";
+            this.textBoxGặpNhau.ReadOnly = true;
+            this.textBoxGặpNhau.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBoxGặpNhau.Size = new System.Drawing.Size(497, 149);
+            this.textBoxGặpNhau.TabIndex = 4;
+            this.textBoxGặpNhau.Text = resources.GetString("textBoxGặpNhau.Text");
+            this.textBoxGặpNhau.WordWrap = false;
+            this.textBoxGặpNhau.TextChanged += new System.EventHandler(this.textBoxGặpNhau_TextChanged);
             // 
             // UC_gặp_nhau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.textBoxGặpNhau);
             this.Controls.Add(this.button_facebook);
             this.Controls.Add(this.button_discord);
-            this.Controls.Add(this.richTextBox_gặp_nhau);
             this.Name = "UC_gặp_nhau";
-            this.Size = new System.Drawing.Size(460, 271);
+            this.Size = new System.Drawing.Size(558, 332);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private RichTextBox richTextBox_gặp_nhau;
         private Button button_discord;
         private Button button_facebook;
+        private TextBox textBoxGặpNhau;
     }
 }

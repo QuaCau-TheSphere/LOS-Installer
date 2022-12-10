@@ -75,5 +75,15 @@ namespace LOS_Installer
             });
             button_bắt_đầu.Enabled = true;
         }
+
+        private void textBoxLog_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_thư_mục_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

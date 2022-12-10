@@ -57,7 +57,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox_gặp_nhau.Text" xml:space="preserve">
-    <value>Các cuộc gặp nhau trực tiếp hoặc online sẽ được tổ chức vào thời điểm nhiều người tham gia được nhiều nhất. Cũng sẽ có những buổi ưu tiên cho những người người ít khi nào rảnh vào những lúc nhiều người tham gia được nhất. Tham gia vào cộng đồng Quả Cầu trên Facebook hoặc Discord chọn lịch cho buổi tiếp theo hoặc nắm bắt thông tin những buổi bạn không tham dự được.</value>
+  <data name="textBoxGặpNhau.Text" xml:space="preserve">
+    <value>Các cuộc gặp nhau trực tiếp hoặc online sẽ được tổ chức vào
+thời điểm nhiều người tham gia được nhiều nhất. Cũng sẽ có 
+những buổi ưu tiên cho những người người ít khi nào rảnh vào
+những buổi nhiều người rảnh. Tham gia vào cộng đồng Quả 
+Cầu trên Facebook hoặc Discord để chọn lịch cho buổi tiếp
+theo hoặc nắm bắt những gì đã diễn ra vào các buổi trước.</value>
   </data>
 </root>

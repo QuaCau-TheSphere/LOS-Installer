@@ -38,10 +38,11 @@
             // button_chọn_thư_mục
             // 
             this.button_chọn_thư_mục.AutoSize = true;
-            this.button_chọn_thư_mục.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_chọn_thư_mục.Location = new System.Drawing.Point(364, 45);
+            this.button_chọn_thư_mục.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_chọn_thư_mục.Location = new System.Drawing.Point(437, 58);
+            this.button_chọn_thư_mục.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button_chọn_thư_mục.Name = "button_chọn_thư_mục";
-            this.button_chọn_thư_mục.Size = new System.Drawing.Size(75, 30);
+            this.button_chọn_thư_mục.Size = new System.Drawing.Size(97, 33);
             this.button_chọn_thư_mục.TabIndex = 0;
             this.button_chọn_thư_mục.Text = "Chọn...";
             this.button_chọn_thư_mục.UseVisualStyleBackColor = true;
@@ -50,20 +51,22 @@
             // label_chọn_thư_mục_chứa_dữ_liệu
             // 
             this.label_chọn_thư_mục_chứa_dữ_liệu.AutoSize = true;
-            this.label_chọn_thư_mục_chứa_dữ_liệu.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_chọn_thư_mục_chứa_dữ_liệu.Location = new System.Drawing.Point(20, 20);
+            this.label_chọn_thư_mục_chứa_dữ_liệu.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_chọn_thư_mục_chứa_dữ_liệu.Location = new System.Drawing.Point(30, 30);
             this.label_chọn_thư_mục_chứa_dữ_liệu.Name = "label_chọn_thư_mục_chứa_dữ_liệu";
-            this.label_chọn_thư_mục_chứa_dữ_liệu.Size = new System.Drawing.Size(187, 20);
+            this.label_chọn_thư_mục_chứa_dữ_liệu.Size = new System.Drawing.Size(222, 23);
             this.label_chọn_thư_mục_chứa_dữ_liệu.TabIndex = 1;
             this.label_chọn_thư_mục_chứa_dữ_liệu.Text = "Chọn thư mục chứa dữ liệu";
             // 
             // textBox_thư_mục
             // 
-            this.textBox_thư_mục.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox_thư_mục.Location = new System.Drawing.Point(20, 45);
+            this.textBox_thư_mục.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_thư_mục.Location = new System.Drawing.Point(30, 58);
+            this.textBox_thư_mục.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.textBox_thư_mục.Name = "textBox_thư_mục";
-            this.textBox_thư_mục.Size = new System.Drawing.Size(338, 27);
+            this.textBox_thư_mục.Size = new System.Drawing.Size(401, 30);
             this.textBox_thư_mục.TabIndex = 2;
+            this.textBox_thư_mục.TextChanged += new System.EventHandler(this.textBox_thư_mục_TextChanged);
             // 
             // button_bắt_đầu
             // 
@@ -71,11 +74,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button_bắt_đầu.AutoSize = true;
             this.button_bắt_đầu.BackColor = System.Drawing.Color.Goldenrod;
-            this.button_bắt_đầu.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_bắt_đầu.Font = new System.Drawing.Font("SVN-Avo", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button_bắt_đầu.ForeColor = System.Drawing.Color.Black;
-            this.button_bắt_đầu.Location = new System.Drawing.Point(169, 91);
+            this.button_bắt_đầu.Location = new System.Drawing.Point(220, 104);
+            this.button_bắt_đầu.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button_bắt_đầu.Name = "button_bắt_đầu";
-            this.button_bắt_đầu.Size = new System.Drawing.Size(101, 62);
+            this.button_bắt_đầu.Size = new System.Drawing.Size(143, 65);
             this.button_bắt_đầu.TabIndex = 3;
             this.button_bắt_đầu.Text = "Bắt đầu";
             this.button_bắt_đầu.UseVisualStyleBackColor = false;
@@ -83,25 +87,29 @@
             // 
             // textBoxLog
             // 
-            this.textBoxLog.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxLog.Location = new System.Drawing.Point(20, 78);
+            this.textBoxLog.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxLog.Location = new System.Drawing.Point(30, 98);
+            this.textBoxLog.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.textBoxLog.Multiline = true;
             this.textBoxLog.Name = "textBoxLog";
             this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxLog.Size = new System.Drawing.Size(419, 173);
+            this.textBoxLog.Size = new System.Drawing.Size(504, 207);
             this.textBoxLog.TabIndex = 4;
+            this.textBoxLog.TextChanged += new System.EventHandler(this.textBoxLog_TextChanged);
             // 
             // UC_cài_đặt
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.button_bắt_đầu);
             this.Controls.Add(this.textBox_thư_mục);
             this.Controls.Add(this.label_chọn_thư_mục_chứa_dữ_liệu);
             this.Controls.Add(this.button_chọn_thư_mục);
+            this.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.Name = "UC_cài_đặt";
-            this.Size = new System.Drawing.Size(460, 271);
+            this.Size = new System.Drawing.Size(571, 332);
             this.ResumeLayout(false);
             this.PerformLayout();
 

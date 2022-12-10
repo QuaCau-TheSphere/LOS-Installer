@@ -27,10 +27,9 @@ namespace LOS_Installer
             Process.Start(new ProcessStartInfo { FileName = "https://discord.gg/jWTk4EHFK2" , UseShellExecute = true });
         }
 
-        private void richTextBox_gặp_nhau_Enter(object sender, EventArgs e)
+        private void textBoxGặpNhau_TextChanged(object sender, EventArgs e)
         {
-            richTextBox_gặp_nhau.Enabled = false;
-            richTextBox_gặp_nhau.Enabled = true;
+
         }
     }
 }

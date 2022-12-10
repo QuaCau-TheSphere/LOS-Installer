@@ -42,21 +42,24 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::LOS_Installer.Properties.Resources.Chào_mừng_đến_với_LOS__hanoi_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(661, 450);
+            this.pictureBox1.Size = new System.Drawing.Size(802, 553);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button_cài_đặt
             // 
-            this.button_cài_đặt.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_cài_đặt.Location = new System.Drawing.Point(42, 42);
+            this.button_cài_đặt.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_cài_đặt.Location = new System.Drawing.Point(50, 50);
+            this.button_cài_đặt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_cài_đặt.Name = "button_cài_đặt";
-            this.button_cài_đặt.Size = new System.Drawing.Size(104, 47);
+            this.button_cài_đặt.Size = new System.Drawing.Size(118, 52);
             this.button_cài_đặt.TabIndex = 1;
             this.button_cài_đặt.Text = "Cài đặt";
             this.button_cài_đặt.UseVisualStyleBackColor = true;
@@ -64,24 +67,28 @@
             // 
             // UC_cài_đặt
             // 
-            this.UC_cài_đặt.Location = new System.Drawing.Point(152, 42);
+            this.UC_cài_đặt.Font = new System.Drawing.Font("SVN-Avo", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UC_cài_đặt.Location = new System.Drawing.Point(174, 50);
+            this.UC_cài_đặt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UC_cài_đặt.Name = "UC_cài_đặt";
-            this.UC_cài_đặt.Size = new System.Drawing.Size(460, 271);
+            this.UC_cài_đặt.Size = new System.Drawing.Size(571, 332);
             this.UC_cài_đặt.TabIndex = 2;
             // 
             // UC_triết_lý
             // 
-            this.UC_triết_lý.Location = new System.Drawing.Point(152, 42);
+            this.UC_triết_lý.Location = new System.Drawing.Point(174, 50);
+            this.UC_triết_lý.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UC_triết_lý.Name = "UC_triết_lý";
-            this.UC_triết_lý.Size = new System.Drawing.Size(460, 271);
+            this.UC_triết_lý.Size = new System.Drawing.Size(571, 332);
             this.UC_triết_lý.TabIndex = 3;
             // 
             // button_triết_lý
             // 
-            this.button_triết_lý.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_triết_lý.Location = new System.Drawing.Point(42, 95);
+            this.button_triết_lý.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_triết_lý.Location = new System.Drawing.Point(50, 110);
+            this.button_triết_lý.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_triết_lý.Name = "button_triết_lý";
-            this.button_triết_lý.Size = new System.Drawing.Size(104, 47);
+            this.button_triết_lý.Size = new System.Drawing.Size(118, 52);
             this.button_triết_lý.TabIndex = 4;
             this.button_triết_lý.Text = "Triết lý";
             this.button_triết_lý.UseVisualStyleBackColor = true;
@@ -89,10 +96,11 @@
             // 
             // button_gặp_nhau
             // 
-            this.button_gặp_nhau.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_gặp_nhau.Location = new System.Drawing.Point(42, 148);
+            this.button_gặp_nhau.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_gặp_nhau.Location = new System.Drawing.Point(50, 170);
+            this.button_gặp_nhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_gặp_nhau.Name = "button_gặp_nhau";
-            this.button_gặp_nhau.Size = new System.Drawing.Size(104, 47);
+            this.button_gặp_nhau.Size = new System.Drawing.Size(118, 52);
             this.button_gặp_nhau.TabIndex = 5;
             this.button_gặp_nhau.Text = "Gặp nhau";
             this.button_gặp_nhau.UseVisualStyleBackColor = true;
@@ -101,9 +109,11 @@
             // UC_gặp_nhau
             // 
             this.UC_gặp_nhau.BackColor = System.Drawing.SystemColors.Control;
-            this.UC_gặp_nhau.Location = new System.Drawing.Point(152, 42);
+            this.UC_gặp_nhau.Font = new System.Drawing.Font("SVN-Avo", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UC_gặp_nhau.Location = new System.Drawing.Point(174, 50);
+            this.UC_gặp_nhau.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.UC_gặp_nhau.Name = "UC_gặp_nhau";
-            this.UC_gặp_nhau.Size = new System.Drawing.Size(460, 271);
+            this.UC_gặp_nhau.Size = new System.Drawing.Size(571, 332);
             this.UC_gặp_nhau.TabIndex = 7;
             // 
             // button_đóng
@@ -111,9 +121,10 @@
             this.button_đóng.BackColor = System.Drawing.Color.Transparent;
             this.button_đóng.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button_đóng.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_đóng.Location = new System.Drawing.Point(645, 0);
+            this.button_đóng.Location = new System.Drawing.Point(786, 0);
+            this.button_đóng.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_đóng.Name = "button_đóng";
-            this.button_đóng.Size = new System.Drawing.Size(16, 23);
+            this.button_đóng.Size = new System.Drawing.Size(16, 24);
             this.button_đóng.TabIndex = 8;
             this.button_đóng.Text = "X";
             this.button_đóng.UseVisualStyleBackColor = false;
@@ -123,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 450);
+            this.ClientSize = new System.Drawing.Size(802, 553);
             this.ControlBox = false;
             this.Controls.Add(this.button_đóng);
             this.Controls.Add(this.UC_gặp_nhau);
@@ -135,12 +146,10 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Vùng đất Quả Cầu";
             this.Load += new System.EventHandler(this.Form1_Load);
-            //this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
-            //this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
-            //this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
