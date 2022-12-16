@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Diagnostics;
 
 namespace LOS_Installer
 {
@@ -16,12 +7,25 @@ namespace LOS_Installer
         public UC_triết_lý()
         {
             InitializeComponent();
-            string tempFile2 = System.IO.Path.GetTempPath() + Guid.NewGuid().ToString() + ".rtf";
-            File.WriteAllText(tempFile2, Properties.Resources.Nội_dung_UC_triết_lý);
-            richTextBoxTriếtLý.LoadFile(tempFile2);
+            richTextBoxTriếtLý.LoadFile(".\\Resources\\Triết lý.rtf");
+            //richTextBoxTriếtLý.LoadFile(".\\Resources\\test.rtf");
+            //richTextBoxTriếtLý.LoadFile(".\\test.rtf", RichTextBoxStreamType.RichText);
+            richTextBoxTriếtLý.SelectAll();
+            richTextBoxTriếtLý.SelectionFont = new Font("Segoe UI", 12F);
+            richTextBoxTriếtLý.DeselectAll();
+
+            //var webBrowser = new WebBrowser();
+            //webBrowser.CreateControl(); // only if needed
+            //webBrowser.DocumentText = Properties.Resources.html;
+            //while (webBrowser.DocumentText != Properties.Resources.html)
+            //    Application.DoEvents();
+            //webBrowser.Document.ExecCommand("SelectAll", false, null);
+            //webBrowser.Document.ExecCommand("Copy", false, null);
+            //Properties.Resources.html.Paste();
+
         }
 
-        private void richTextBox1_LinkClicked(object sender, LinkClickedEventArgs e)
+        private void richTextBoxTriếtLý_LinkClicked(object sender, LinkClickedEventArgs e)
         {
             Process.Start(new ProcessStartInfo { FileName = e.LinkText, UseShellExecute = true });
         }

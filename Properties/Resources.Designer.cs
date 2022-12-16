@@ -83,55 +83,20 @@ namespace LOS_Installer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap facebook2 {
+        internal static System.Drawing.Bitmap facebook {
             get {
-                object obj = ResourceManager.GetObject("facebook2", resourceCulture);
+                object obj = ResourceManager.GetObject("facebook", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
-        ///{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f34\fbidi \fr [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;div style=&quot;font-family:SVN-Avo&quot;&gt;
+        ///&lt;p&gt;&lt;span&gt;Quả Cầu hướng đến việc trở th&amp;agrave;nh một tổ chức kh&amp;ocirc;ng c&amp;oacute; sự ph&amp;acirc;n cấp v&amp;agrave; người tham gia kh&amp;ocirc;ng l&amp;agrave;m v&amp;igrave; tr&amp;aacute;ch nhiệm, lấy nhu cầu của th&amp;agrave;nh vi&amp;ecirc;n (vốn nhiều v&amp;ocirc; kể v&amp;agrave; thay đổi li&amp;ecirc;n tục) để l&amp;agrave;m mục ti&amp;ecirc;u của tổ chức, dựa tr&amp;ecirc;n triết học của Deleuze v&amp;agrave; Guattari, khoa học phức hợp, game phi&amp;ecirc;u lưu nhập vai, nền kinh tế kh&amp;ocirc;ng d&amp;ugrave;ng tiền, v&amp;agrave;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Nội_dung_UC_triết_lý {
+        internal static string html {
             get {
-                return ResourceManager.GetString("Nội dung UC triết lý", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to chdir
-        ///chdir %1
-        ///winget install --id Git.Git -e --source winget 
-        ///winget install Obsidian
-        ///
-        ///git config --global core.quotePath false
-        ///git config --global core.longpaths true
-        ///git config --global core.autocrlf true
-        ///git config --global core.safecrlf false
-        ///git config --global --add safe.directory &apos;*&apos;
-        ///
-        ///git clone https://github.com/QuaCau-TheSphere/LandofSpheres
-        ///
-        ///set &quot;doubleSlashes=%path:\=\\%&quot; 
-        ///set &quot;obsidianString={&quot;vaults&quot;:{&quot;0123456789abcdef&quot;:{&quot;path&quot;:&quot;%doubleSlashes%&quot;,&quot;open&quot;:true}}}&quot; 
-        ///C:
-        ///cd %appdata% [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string Script_cài_chương_trình {
-            get {
-                return ResourceManager.GetString("Script cài chương trình", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SVN_Avo {
-            get {
-                object obj = ResourceManager.GetObject("SVN_Avo", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetString("html", resourceCulture);
             }
         }
     }

@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Diagnostics;
 
 namespace LOS_Installer
 {
@@ -24,12 +15,7 @@ namespace LOS_Installer
 
         private void button_discord_Click(object sender, EventArgs e)
         {
-            Process.Start(new ProcessStartInfo { FileName = "https://discord.gg/jWTk4EHFK2" , UseShellExecute = true });
-        }
-
-        private void textBoxGặpNhau_TextChanged(object sender, EventArgs e)
-        {
-
+            Process.Start(new ProcessStartInfo { FileName = "https://discord.gg/jWTk4EHFK2", UseShellExecute = true });
         }
     }
 }

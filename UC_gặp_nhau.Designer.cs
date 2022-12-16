@@ -47,7 +47,7 @@
             // 
             // button_facebook
             // 
-            this.button_facebook.BackgroundImage = global::LOS_Installer.Properties.Resources.facebook2;
+            this.button_facebook.BackgroundImage = global::LOS_Installer.Properties.Resources.facebook;
             this.button_facebook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button_facebook.Location = new System.Drawing.Point(75, 197);
             this.button_facebook.Name = "button_facebook";
@@ -65,11 +65,10 @@
             this.textBoxGặpNhau.Name = "textBoxGặpNhau";
             this.textBoxGặpNhau.ReadOnly = true;
             this.textBoxGặpNhau.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBoxGặpNhau.Size = new System.Drawing.Size(497, 149);
+            this.textBoxGặpNhau.Size = new System.Drawing.Size(515, 149);
             this.textBoxGặpNhau.TabIndex = 4;
             this.textBoxGặpNhau.Text = resources.GetString("textBoxGặpNhau.Text");
             this.textBoxGặpNhau.WordWrap = false;
-            this.textBoxGặpNhau.TextChanged += new System.EventHandler(this.textBoxGặpNhau_TextChanged);
             // 
             // UC_gặp_nhau
             // 

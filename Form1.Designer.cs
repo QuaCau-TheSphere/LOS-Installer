@@ -76,6 +76,7 @@
             // 
             // UC_triết_lý
             // 
+            this.UC_triết_lý.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UC_triết_lý.Location = new System.Drawing.Point(174, 50);
             this.UC_triết_lý.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UC_triết_lý.Name = "UC_triết_lý";
@@ -118,13 +119,15 @@
             // 
             // button_đóng
             // 
+            this.button_đóng.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_đóng.AutoSize = true;
             this.button_đóng.BackColor = System.Drawing.Color.Transparent;
             this.button_đóng.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button_đóng.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_đóng.Location = new System.Drawing.Point(786, 0);
+            this.button_đóng.Font = new System.Drawing.Font("SVN-Avo", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_đóng.Location = new System.Drawing.Point(774, 0);
             this.button_đóng.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_đóng.Name = "button_đóng";
-            this.button_đóng.Size = new System.Drawing.Size(16, 24);
+            this.button_đóng.Size = new System.Drawing.Size(28, 25);
             this.button_đóng.TabIndex = 8;
             this.button_đóng.Text = "X";
             this.button_đóng.UseVisualStyleBackColor = false;
@@ -152,6 +155,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

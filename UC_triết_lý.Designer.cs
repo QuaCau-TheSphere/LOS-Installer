@@ -38,15 +38,15 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBoxTriếtLý.BackColor = System.Drawing.SystemColors.Control;
             this.richTextBoxTriếtLý.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBoxTriếtLý.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBoxTriếtLý.Location = new System.Drawing.Point(43, 46);
+            this.richTextBoxTriếtLý.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBoxTriếtLý.Location = new System.Drawing.Point(30, 30);
             this.richTextBoxTriếtLý.Margin = new System.Windows.Forms.Padding(29, 31, 29, 31);
             this.richTextBoxTriếtLý.Name = "richTextBoxTriếtLý";
             this.richTextBoxTriếtLý.ReadOnly = true;
-            this.richTextBoxTriếtLý.Size = new System.Drawing.Size(754, 414);
+            this.richTextBoxTriếtLý.Size = new System.Drawing.Size(767, 448);
             this.richTextBoxTriếtLý.TabIndex = 1;
             this.richTextBoxTriếtLý.Text = "";
-            this.richTextBoxTriếtLý.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
+            this.richTextBoxTriếtLý.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBoxTriếtLý_LinkClicked);
             // 
             // UC_triết_lý
             // 

@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Reflection;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Microsoft.WindowsAPICodePack.Dialogs;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace LOS_Installer
 {
@@ -48,11 +36,13 @@ namespace LOS_Installer
             Directory.SetCurrentDirectory(path);
             textBoxLog.Visible = true;
             button_bắt_đầu.Enabled = false;
-            await Task.Run(() => {
+            await Task.Run(() =>
+            {
                 var proc = new Process();
-                string tempFile = path + "temporary_script.bat";
-                File.WriteAllText(tempFile, Properties.Resources.Script_cài_chương_trình);
-                proc.StartInfo.FileName = @"temporary_script.bat";
+                //string tempFile = path + "temporary_script.bat";
+                //File.WriteAllText(tempFile, Properties.Resources.Script_chính);
+                //proc.StartInfo.FileName = @"temporary_script.bat";
+                proc.StartInfo.FileName = @"Resource\\Script chính.bat";
                 proc.StartInfo.RedirectStandardOutput = true;
                 proc.StartInfo.RedirectStandardError = true;
                 proc.StartInfo.CreateNoWindow = true;
@@ -71,7 +61,7 @@ namespace LOS_Installer
 
                 }
                 proc.WaitForExit();
-                File.Delete(tempFile);
+                //File.Delete(tempFile);
             });
             button_bắt_đầu.Enabled = true;
         }
