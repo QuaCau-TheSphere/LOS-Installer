@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LOS Installer</name>
+    </assembly>
+    <members>
+        <member name="F:LOS_Installer.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOS_Installer.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:LOS_Installer.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LOS_Installer.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LOS_Installer.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:LOS_Installer.Properties.Resources.Chào_mừng_đến_với_LOS__hanoi_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LOS_Installer.Properties.Resources.discord">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LOS_Installer.Properties.Resources.facebook">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LOS_Installer.Properties.Resources.html">
+             <summary>
+               Looks up a localized string similar to &lt;div style=&quot;font-family:SVN-Avo&quot;&gt;
+            &lt;p&gt;&lt;span&gt;Quả Cầu hướng đến việc trở th&amp;agrave;nh một tổ chức kh&amp;ocirc;ng c&amp;oacute; sự ph&amp;acirc;n cấp v&amp;agrave; người tham gia kh&amp;ocirc;ng l&amp;agrave;m v&amp;igrave; tr&amp;aacute;ch nhiệm, lấy nhu cầu của th&amp;agrave;nh vi&amp;ecirc;n (vốn nhiều v&amp;ocirc; kể v&amp;agrave; thay đổi li&amp;ecirc;n tục) để l&amp;agrave;m mục ti&amp;ecirc;u của tổ chức, dựa tr&amp;ecirc;n triết học của Deleuze v&amp;agrave; Guattari, khoa học phức hợp, game phi&amp;ecirc;u lưu nhập vai, nền kinh tế kh&amp;ocirc;ng d&amp;ugrave;ng tiền, v&amp;agrave;  [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="F:LOS_Installer.UC_cài_đặt.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.UC_cài_đặt.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOS_Installer.UC_cài_đặt.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LOS_Installer.UC_gặp_nhau.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.UC_gặp_nhau.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOS_Installer.UC_gặp_nhau.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LOS_Installer.UC_triết_lý.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.UC_triết_lý.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOS_Installer.UC_triết_lý.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LOS_Installer.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
