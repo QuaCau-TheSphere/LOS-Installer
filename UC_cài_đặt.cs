@@ -10,8 +10,8 @@ namespace LOS_Installer
         {
             InitializeComponent();
             textBoxLog.Visible = false;
-            textBox_thư_mục.Text = "D:\\";
-            //textBox_thư_mục.Text = "C:\\Users\\ooker\\Documents\\Newwww";
+            //textBox_thư_mục.Text = "D:\\";
+            textBox_thư_mục.Text = "C:\\Users\\ooker\\Documents\\1 Công việc";
             path = textBox_thư_mục.Text;
         }
 
@@ -41,12 +41,12 @@ namespace LOS_Installer
             await Task.Run(() =>
             {
                 var proc = new Process();
-                //proc.StartInfo.FileName = @"Resources\Script test.bat";
-                proc.StartInfo.FileName = @"Resources\Script chính.bat";
+                proc.StartInfo.FileName = @"Resources\Script test.bat";
+                //proc.StartInfo.FileName = @"Resources\Script chính.bat";
                 proc.StartInfo.Arguments = "\"" + path + "\"";
                 proc.StartInfo.UseShellExecute = true;
                 proc.Start();
-                //proc.StartInfo.CreateNoWindow = true;
+                //proc.StartInfo.CreaterNoWindow = true;
                 //proc.StartInfo.RedirectStandardOutput = true;
                 //proc.StartInfo.RedirectStandardError = true;
                 //if (proc.Start())
