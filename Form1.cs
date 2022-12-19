@@ -12,15 +12,6 @@ namespace LOS_Installer
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            //string tempFont = System.IO.Path.GetTempPath() + "SVN-Avo.ttf";
-            //File.WriteAllText(tempFont, Properties.Resources.SVN_Avo);
-            //string tempScriptFont = System.IO.Path.GetTempPath() + "FontInstalling.bat";
-            //File.WriteAllText(tempScriptFont, Properties.Resources.Script_cài_font);
-
-            //var procFontInstalling = new Process();
-            //procFontInstalling.StartInfo.FileName = @"FontInstalling.bat";
-            ////procFontInstalling.StartInfo.CreateNoWindow = true;
-            //procFontInstalling.Start();
         }
 
         private void button_cài_đặt_Click(object sender, EventArgs e)

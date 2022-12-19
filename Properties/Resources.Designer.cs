@@ -89,15 +89,5 @@ namespace LOS_Installer.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;div style=&quot;font-family:SVN-Avo&quot;&gt;
-        ///&lt;p&gt;&lt;span&gt;Quả Cầu hướng đến việc trở th&amp;agrave;nh một tổ chức kh&amp;ocirc;ng c&amp;oacute; sự ph&amp;acirc;n cấp v&amp;agrave; người tham gia kh&amp;ocirc;ng l&amp;agrave;m v&amp;igrave; tr&amp;aacute;ch nhiệm, lấy nhu cầu của th&amp;agrave;nh vi&amp;ecirc;n (vốn nhiều v&amp;ocirc; kể v&amp;agrave; thay đổi li&amp;ecirc;n tục) để l&amp;agrave;m mục ti&amp;ecirc;u của tổ chức, dựa tr&amp;ecirc;n triết học của Deleuze v&amp;agrave; Guattari, khoa học phức hợp, game phi&amp;ecirc;u lưu nhập vai, nền kinh tế kh&amp;ocirc;ng d&amp;ugrave;ng tiền, v&amp;agrave;  [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string html {
-            get {
-                return ResourceManager.GetString("html", resourceCulture);
-            }
-        }
     }
 }
