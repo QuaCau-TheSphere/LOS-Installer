@@ -10,7 +10,8 @@ namespace LOS_Installer
         {
             InitializeComponent();
             textBoxLog.Visible = false;
-            //textBox_thư_mục.Text = "D:\\";
+            textBox_thư_mục.Text = "D:\\";
+            //textBox_thư_mục.Text = "C:\\Users\\ooker\\Documents\\Newwww";
             path = textBox_thư_mục.Text;
         }
 
@@ -40,25 +41,27 @@ namespace LOS_Installer
             await Task.Run(() =>
             {
                 var proc = new Process();
-                proc.StartInfo.FileName = @"Resources\Script test.bat";
-                //proc.StartInfo.FileName = @"Resources\Script chính.bat";
-                proc.StartInfo.RedirectStandardOutput = true;
-                proc.StartInfo.RedirectStandardError = true;
-                proc.StartInfo.CreateNoWindow = true;
-                proc.StartInfo.Arguments = "\"" + path + "\"" ;
-                if (proc.Start())
-                {
-                    void outputCallback(string data)
-                    {
-                        textBoxLog.AppendText(data);
-                        textBoxLog.AppendText(Environment.NewLine);
-                    }
-                    proc.OutputDataReceived += (_, e) => Invoke(outputCallback, e.Data);
-                    proc.ErrorDataReceived += (_, e) => Invoke(outputCallback, e.Data);
-                    proc.BeginOutputReadLine();
-                    proc.BeginErrorReadLine();
+                //proc.StartInfo.FileName = @"Resources\Script test.bat";
+                proc.StartInfo.FileName = @"Resources\Script chính.bat";
+                proc.StartInfo.Arguments = "\"" + path + "\"";
+                proc.StartInfo.UseShellExecute = true;
+                proc.Start();
+                //proc.StartInfo.CreateNoWindow = true;
+                //proc.StartInfo.RedirectStandardOutput = true;
+                //proc.StartInfo.RedirectStandardError = true;
+                //if (proc.Start())
+                //{
+                //    void outputCallback(string data)
+                //    {
+                //        textBoxLog.AppendText(data);
+                //        textBoxLog.AppendText(Environment.NewLine);
+                //    }
+                //    proc.OutputDataReceived += (_, e) => Invoke(outputCallback, e.Data);
+                //    proc.ErrorDataReceived += (_, e) => Invoke(outputCallback, e.Data);
+                //    proc.BeginOutputReadLine();
+                //    proc.BeginErrorReadLine();
 
-                }
+                //}
                 proc.WaitForExit();
             });
             button_bắt_đầu.Enabled = true;

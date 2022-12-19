@@ -1,10 +1,10 @@
 cd
-set "path=%1%" 
-echo %path%
+set "vaultPath=%1%" 
+echo %vaultPath%
 winget install -e --source winget --accept-source-agreements --accept-package-agreements --id Git.Git 
 git clone https://github.com/QuaCau-TheSphere/LandofSpheres
 
-set "doubleSlashes=%path:\=\\%" 
+set "doubleSlashes=%vaultPath:\=\\%" 
 echo %doubleSlashes%
 set "obsidianString={"vaults":{"0123456789abcdef":{"path":"%doubleSlashes%","open":true}}}" 
 echo %obsidianString%

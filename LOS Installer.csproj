@@ -76,4 +76,8 @@
     </None>
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="cd" />
+  </Target>
+
 </Project>
