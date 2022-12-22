@@ -32,8 +32,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_cài_đặt = new System.Windows.Forms.Button();
             this.UC_cài_đặt = new LOS_Installer.UC_cài_đặt();
-            this.UC_triết_lý = new LOS_Installer.UC_triết_lý();
-            this.button_triết_lý = new System.Windows.Forms.Button();
+            this.UC_giới_thiệu = new LOS_Installer.UC_giới_thiệu();
+            this.buttonGiớiThiệu = new System.Windows.Forms.Button();
             this.button_gặp_nhau = new System.Windows.Forms.Button();
             this.UC_gặp_nhau = new LOS_Installer.UC_gặp_nhau();
             this.button_đóng = new System.Windows.Forms.Button();
@@ -74,26 +74,26 @@
             this.UC_cài_đặt.Size = new System.Drawing.Size(571, 332);
             this.UC_cài_đặt.TabIndex = 2;
             // 
-            // UC_triết_lý
+            // UC_giới_thiệu
             // 
-            this.UC_triết_lý.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.UC_triết_lý.Location = new System.Drawing.Point(174, 50);
-            this.UC_triết_lý.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.UC_triết_lý.Name = "UC_triết_lý";
-            this.UC_triết_lý.Size = new System.Drawing.Size(571, 332);
-            this.UC_triết_lý.TabIndex = 3;
+            this.UC_giới_thiệu.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UC_giới_thiệu.Location = new System.Drawing.Point(174, 50);
+            this.UC_giới_thiệu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UC_giới_thiệu.Name = "UC_giới_thiệu";
+            this.UC_giới_thiệu.Size = new System.Drawing.Size(571, 332);
+            this.UC_giới_thiệu.TabIndex = 3;
             // 
-            // button_triết_lý
+            // buttonGiớiThiệu
             // 
-            this.button_triết_lý.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_triết_lý.Location = new System.Drawing.Point(50, 110);
-            this.button_triết_lý.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button_triết_lý.Name = "button_triết_lý";
-            this.button_triết_lý.Size = new System.Drawing.Size(118, 52);
-            this.button_triết_lý.TabIndex = 4;
-            this.button_triết_lý.Text = "Triết lý";
-            this.button_triết_lý.UseVisualStyleBackColor = true;
-            this.button_triết_lý.Click += new System.EventHandler(this.button_triết_lý_Click);
+            this.buttonGiớiThiệu.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonGiớiThiệu.Location = new System.Drawing.Point(50, 110);
+            this.buttonGiớiThiệu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonGiớiThiệu.Name = "buttonGiớiThiệu";
+            this.buttonGiớiThiệu.Size = new System.Drawing.Size(118, 52);
+            this.buttonGiớiThiệu.TabIndex = 4;
+            this.buttonGiớiThiệu.Text = "Giới thiệu";
+            this.buttonGiớiThiệu.UseVisualStyleBackColor = true;
+            this.buttonGiớiThiệu.Click += new System.EventHandler(this.buttonGiớiThiệu_Click);
             // 
             // button_gặp_nhau
             // 
@@ -142,8 +142,8 @@
             this.Controls.Add(this.button_đóng);
             this.Controls.Add(this.UC_gặp_nhau);
             this.Controls.Add(this.button_gặp_nhau);
-            this.Controls.Add(this.button_triết_lý);
-            this.Controls.Add(this.UC_triết_lý);
+            this.Controls.Add(this.buttonGiớiThiệu);
+            this.Controls.Add(this.UC_giới_thiệu);
             this.Controls.Add(this.UC_cài_đặt);
             this.Controls.Add(this.button_cài_đặt);
             this.Controls.Add(this.pictureBox1);
@@ -164,8 +164,8 @@
         private PictureBox pictureBox1;
         private Button button_cài_đặt;
         private UC_cài_đặt UC_cài_đặt;
-        private UC_triết_lý UC_triết_lý;
-        private Button button_triết_lý;
+        private UC_giới_thiệu UC_giới_thiệu;
+        private Button buttonGiớiThiệu;
         private Button button_gặp_nhau;
         private UC_gặp_nhau UC_gặp_nhau;
         private Button button_đóng;

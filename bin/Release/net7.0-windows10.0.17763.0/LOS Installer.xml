@@ -74,6 +74,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:LOS_Installer.UC_giới_thiệu.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LOS_Installer.UC_giới_thiệu.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LOS_Installer.UC_giới_thiệu.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:LOS_Installer.UC_gặp_nhau.components">
             <summary> 
             Required designer variable.
@@ -86,23 +103,6 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:LOS_Installer.UC_gặp_nhau.InitializeComponent">
-            <summary> 
-            Required method for Designer support - do not modify 
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="F:LOS_Installer.UC_triết_lý.components">
-            <summary> 
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:LOS_Installer.UC_triết_lý.Dispose(System.Boolean)">
-            <summary> 
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:LOS_Installer.UC_triết_lý.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
