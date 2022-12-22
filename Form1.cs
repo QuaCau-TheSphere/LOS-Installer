@@ -7,7 +7,7 @@ namespace LOS_Installer
             InitializeComponent();
 
             UC_cài_đặt.Visible = false;
-            UC_triết_lý.Visible = false;
+            UC_giới_thiệu.Visible = false;
             UC_gặp_nhau.Visible = false;
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -25,19 +25,19 @@ namespace LOS_Installer
                 UC_cài_đặt.Visible = true;
             }
 
-            UC_triết_lý.Visible = false;
+            UC_giới_thiệu.Visible = false;
             UC_gặp_nhau.Visible = false;
         }
 
-        private void button_triết_lý_Click(object sender, EventArgs e)
+        private void buttonGiớiThiệu_Click(object sender, EventArgs e)
         {
-            if (UC_triết_lý.Visible == true)
+            if (UC_giới_thiệu.Visible == true)
             {
-                UC_triết_lý.Visible = false;
+                UC_giới_thiệu.Visible = false;
             }
-            else if (UC_triết_lý.Visible == false)
+            else if (UC_giới_thiệu.Visible == false)
             {
-                UC_triết_lý.Visible = true;
+                UC_giới_thiệu.Visible = true;
             }
             UC_cài_đặt.Visible = false;
             UC_gặp_nhau.Visible = false;
@@ -54,7 +54,7 @@ namespace LOS_Installer
             }
 
             UC_cài_đặt.Visible = false;
-            UC_triết_lý.Visible = false;
+            UC_giới_thiệu.Visible = false;
         }
 
         private void button_đóng_Click(object sender, EventArgs e)

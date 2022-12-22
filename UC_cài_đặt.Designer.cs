@@ -32,7 +32,6 @@
             this.label_chọn_thư_mục_chứa_dữ_liệu = new System.Windows.Forms.Label();
             this.textBox_thư_mục = new System.Windows.Forms.TextBox();
             this.button_bắt_đầu = new System.Windows.Forms.Button();
-            this.textBoxLog = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button_chọn_thư_mục
@@ -85,23 +84,10 @@
             this.button_bắt_đầu.UseVisualStyleBackColor = false;
             this.button_bắt_đầu.Click += new System.EventHandler(this.button_bắt_đầu_Click);
             // 
-            // textBoxLog
-            // 
-            this.textBoxLog.Font = new System.Drawing.Font("SVN-Avo", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxLog.Location = new System.Drawing.Point(30, 98);
-            this.textBoxLog.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.textBoxLog.Multiline = true;
-            this.textBoxLog.Name = "textBoxLog";
-            this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxLog.Size = new System.Drawing.Size(504, 207);
-            this.textBoxLog.TabIndex = 4;
-            this.textBoxLog.TextChanged += new System.EventHandler(this.textBoxLog_TextChanged);
-            // 
             // UC_cài_đặt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.button_bắt_đầu);
             this.Controls.Add(this.textBox_thư_mục);
             this.Controls.Add(this.label_chọn_thư_mục_chứa_dữ_liệu);
@@ -121,6 +107,5 @@
         private Label label_chọn_thư_mục_chứa_dữ_liệu;
         private TextBox textBox_thư_mục;
         private Button button_bắt_đầu;
-        private TextBox textBoxLog;
     }
 }
