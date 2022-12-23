@@ -27,13 +27,8 @@ namespace LOS_Installer
             }
             path = textBox_thư_mục.Text;
         }
-        public async void button_bắt_đầu_Click(object sender, EventArgs e)
+        public async void buttonBắtĐầu_Click(object sender, EventArgs e)
         {
-            if (path == string.Empty)
-            {
-                MessageBox.Show("Hãy chọn thư mục chứa dữ liệu");
-                return;
-            }
             if (!Directory.Exists(path))
             {
                 MessageBox.Show("Thư mục không tồn tại");
@@ -43,19 +38,28 @@ namespace LOS_Installer
             label_chọn_thư_mục_chứa_dữ_liệu.ForeColor = SystemColors.ControlDark;
             button_chọn_thư_mục.Enabled = false;
             textBox_thư_mục.Enabled = false;
-            button_bắt_đầu.Enabled = false;
-            button_bắt_đầu.Text = "Đang cài...";
-            await Task.Run(() =>
-            {
-                var proc = new Process();
-                //proc.StartInfo.FileName = @"Resources\Script test.bat";
-                proc.StartInfo.FileName = @"Resources\2. Cài đặt Obsidian và Git.bat";
-                proc.StartInfo.Arguments = "\"" + path + "\"";
-                proc.StartInfo.UseShellExecute = true;
-                proc.Start();
-                proc.WaitForExit();
-                proc.StartInfo.FileName = @"Resources\3. Tải dữ liệu.bat";
-                proc.Start();
+            buttonBắtĐầu.Enabled = false;
+            buttonBắtĐầu.Text = "Đang cài...";
+
+            var proc = new Process();
+            //proc.StartInfo.FileName = @"Resources\Script test.bat";
+            proc.StartInfo.FileName = @"Resources\2. Cài đặt Obsidian và Git.bat";
+            proc.StartInfo.Arguments = "\"" + path + "\"";
+            proc.StartInfo.UseShellExecute = true;
+            proc.Start();
+            proc.WaitForExit();
+
+            proc.StartInfo.FileName = @"Resources\3. Tải dữ liệu.bat";
+            proc.Start();
+            proc.WaitForExit();
+
+            proc.StartInfo.FileName = Environment.ExpandEnvironmentVariables(@"%localappdata%\Obsidian\Obsidian.exe");
+            proc.StartInfo.Arguments = @"""obsidian://vault/Land of Spheres/== Bản đồ dành cho người mới ==""";
+            proc.Start();
+            buttonBắtĐầu.Text = "Đã cài xong";
+
+            //await Task.Run(() =>
+            //{
                 //proc.StartInfo.CreaterNoWindow = true;
                 //proc.StartInfo.RedirectStandardOutput = true;
                 //proc.StartInfo.RedirectStandardError = true;
@@ -72,9 +76,8 @@ namespace LOS_Installer
                 //    proc.BeginErrorReadLine();
 
                 //}
-                proc.WaitForExit();
-            });
-            button_bắt_đầu.Enabled = true;
+            //    proc.WaitForExit();
+            //});
         }
 
         private void textBoxLog_TextChanged(object sender, EventArgs e)

@@ -31,7 +31,7 @@
             this.button_chọn_thư_mục = new System.Windows.Forms.Button();
             this.label_chọn_thư_mục_chứa_dữ_liệu = new System.Windows.Forms.Label();
             this.textBox_thư_mục = new System.Windows.Forms.TextBox();
-            this.button_bắt_đầu = new System.Windows.Forms.Button();
+            this.buttonBắtĐầu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_chọn_thư_mục
@@ -67,28 +67,28 @@
             this.textBox_thư_mục.TabIndex = 2;
             this.textBox_thư_mục.TextChanged += new System.EventHandler(this.textBox_thư_mục_TextChanged);
             // 
-            // button_bắt_đầu
+            // buttonBắtĐầu
             // 
-            this.button_bắt_đầu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.buttonBắtĐầu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_bắt_đầu.AutoSize = true;
-            this.button_bắt_đầu.BackColor = System.Drawing.Color.Goldenrod;
-            this.button_bắt_đầu.Font = new System.Drawing.Font("SVN-Avo", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_bắt_đầu.ForeColor = System.Drawing.Color.Black;
-            this.button_bắt_đầu.Location = new System.Drawing.Point(220, 104);
-            this.button_bắt_đầu.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.button_bắt_đầu.Name = "button_bắt_đầu";
-            this.button_bắt_đầu.Size = new System.Drawing.Size(143, 65);
-            this.button_bắt_đầu.TabIndex = 3;
-            this.button_bắt_đầu.Text = "Bắt đầu";
-            this.button_bắt_đầu.UseVisualStyleBackColor = false;
-            this.button_bắt_đầu.Click += new System.EventHandler(this.button_bắt_đầu_Click);
+            this.buttonBắtĐầu.AutoSize = true;
+            this.buttonBắtĐầu.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonBắtĐầu.Font = new System.Drawing.Font("SVN-Avo", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonBắtĐầu.ForeColor = System.Drawing.Color.Black;
+            this.buttonBắtĐầu.Location = new System.Drawing.Point(220, 104);
+            this.buttonBắtĐầu.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.buttonBắtĐầu.Name = "buttonBắtĐầu";
+            this.buttonBắtĐầu.Size = new System.Drawing.Size(143, 65);
+            this.buttonBắtĐầu.TabIndex = 3;
+            this.buttonBắtĐầu.Text = "Bắt đầu";
+            this.buttonBắtĐầu.UseVisualStyleBackColor = false;
+            this.buttonBắtĐầu.Click += new System.EventHandler(this.buttonBắtĐầu_Click);
             // 
             // UC_cài_đặt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button_bắt_đầu);
+            this.Controls.Add(this.buttonBắtĐầu);
             this.Controls.Add(this.textBox_thư_mục);
             this.Controls.Add(this.label_chọn_thư_mục_chứa_dữ_liệu);
             this.Controls.Add(this.button_chọn_thư_mục);
@@ -106,6 +106,6 @@
         private Button button_chọn_thư_mục;
         private Label label_chọn_thư_mục_chứa_dữ_liệu;
         private TextBox textBox_thư_mục;
-        private Button button_bắt_đầu;
+        private Button buttonBắtĐầu;
     }
 }
