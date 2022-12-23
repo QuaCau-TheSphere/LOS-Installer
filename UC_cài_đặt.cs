@@ -34,10 +34,16 @@ namespace LOS_Installer
                 MessageBox.Show("Thư mục không tồn tại");
                 return;
             }
+            if (!Directory.Exists(path))
+            {
+                MessageBox.Show("Thư mục không tồn tại");
+                return;
+            }
             //Directory.SetCurrentDirectory(path);
             label_chọn_thư_mục_chứa_dữ_liệu.ForeColor = SystemColors.ControlDark;
             button_chọn_thư_mục.Enabled = false;
             textBox_thư_mục.Enabled = false;
+<<<<<<< HEAD
             buttonBắtĐầu.Enabled = false;
             buttonBắtĐầu.Text = "Đang cài...";
 
@@ -60,6 +66,21 @@ namespace LOS_Installer
 
             //await Task.Run(() =>
             //{
+=======
+            button_bắt_đầu.Enabled = false;
+            button_bắt_đầu.Text = "Đang cài...";
+            await Task.Run(() =>
+            {
+                var proc = new Process();
+                //proc.StartInfo.FileName = @"Resources\Script test.bat";
+                proc.StartInfo.FileName = @"Resources\2. Cài đặt Obsidian và Git.bat";
+                proc.StartInfo.Arguments = "\"" + path + "\"";
+                proc.StartInfo.UseShellExecute = true;
+                proc.Start();
+                proc.WaitForExit();
+                proc.StartInfo.FileName = @"Resources\3. Tải dữ liệu.bat";
+                proc.Start();
+>>>>>>> main
                 //proc.StartInfo.CreaterNoWindow = true;
                 //proc.StartInfo.RedirectStandardOutput = true;
                 //proc.StartInfo.RedirectStandardError = true;
