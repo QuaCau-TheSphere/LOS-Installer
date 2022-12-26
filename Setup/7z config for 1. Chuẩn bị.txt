@@ -1,3 +1,0 @@
-;!@Install@!UTF-8!
-ExecuteFile="1. Chuẩn bị.bat"
-;!@InstallEnd@!
