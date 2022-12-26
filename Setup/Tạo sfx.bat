@@ -1,15 +1,11 @@
-del Land_of_Sphere.exe && (
-  echo winget is here
-) || (
-  cscript MessageBox.vbs "Bạn chưa cài winget. Vui lòng xem hướng dẫn tại trang cài đặt."
-)
-Pause
 cd "SFX" 
+rmdir /s/q "Bộ cài chính"
 del Land_of_Sphere.7z
-xcopy \s ..\..\bin\Release\net7.0-windows10.0.17763.0\* "Bộ cài chính" /h /i /c /k /e /r /y
+xcopy ..\..\bin\Release\net7.0-windows10.0.17763.0\* "Bộ cài chính" /h /i /c /k /e /r /y
 7z a Land_of_Sphere.7z *
 
 cd ..
 del Land_of_Sphere.exe
 copy /b 7zSD.sfx + "7z config.txt" + "SFX\Land_of_Sphere.7z" "Land_of_Sphere.exe"
 # "Land_of_Sphere.exe"
+TIMEOUT /T 10

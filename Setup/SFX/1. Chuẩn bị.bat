@@ -18,4 +18,4 @@ ECHO Y | winget install Microsoft.DotNet.DesktopRuntime.7 --accept-source-agreem
 cd "Bộ cài chính" 
 type ..\ascii.txt
 "LOS Installer.exe" 
-Pause
+TIMEOUT /T 10
