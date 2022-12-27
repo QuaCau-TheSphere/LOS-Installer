@@ -32,6 +32,7 @@
             this.label_chọn_thư_mục_chứa_dữ_liệu = new System.Windows.Forms.Label();
             this.textBox_thư_mục = new System.Windows.Forms.TextBox();
             this.buttonBắtĐầu = new System.Windows.Forms.Button();
+            this.labelKhôngTắtNgang = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_chọn_thư_mục
@@ -84,10 +85,21 @@
             this.buttonBắtĐầu.UseVisualStyleBackColor = false;
             this.buttonBắtĐầu.Click += new System.EventHandler(this.buttonBắtĐầu_Click);
             // 
+            // labelKhôngTắtNgang
+            // 
+            this.labelKhôngTắtNgang.AutoSize = true;
+            this.labelKhôngTắtNgang.Font = new System.Drawing.Font("SVN-Avo", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelKhôngTắtNgang.Location = new System.Drawing.Point(166, 174);
+            this.labelKhôngTắtNgang.Name = "labelKhôngTắtNgang";
+            this.labelKhôngTắtNgang.Size = new System.Drawing.Size(247, 16);
+            this.labelKhôngTắtNgang.TabIndex = 5;
+            this.labelKhôngTắtNgang.Text = "Vui lòng không tắt cửa sổ này khi đang cài";
+            // 
             // UC_cài_đặt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.labelKhôngTắtNgang);
             this.Controls.Add(this.buttonBắtĐầu);
             this.Controls.Add(this.textBox_thư_mục);
             this.Controls.Add(this.label_chọn_thư_mục_chứa_dữ_liệu);
@@ -107,6 +119,6 @@
         private Label label_chọn_thư_mục_chứa_dữ_liệu;
         private TextBox textBox_thư_mục;
         private Button buttonBắtĐầu;
-
+        private Label labelKhôngTắtNgang;
     }
 }

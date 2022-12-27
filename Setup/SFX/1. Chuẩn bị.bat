@@ -1,3 +1,16 @@
+:: Get QuickEdit Mode setting from Windows Registry
+FOR /F "usebackq tokens=3*" %%A IN (`REG QUERY "HKCU\Console" /v QuickEdit`) DO (
+  set quickEditSetting=%%A %%B
+)
+
+if %quickEditSetting%==0x1 (
+  :: Disable QuickEdit Mode
+  reg add HKCU\Console /v QuickEdit /t REG_DWORD /d 0 /f
+
+  :: Open script in a new Command Prompt window
+  start "" "%~dpnx0" %* && exit
+)
+
 chcp 65001
 title 1. Chuẩn bị
 

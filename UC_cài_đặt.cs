@@ -12,6 +12,7 @@ namespace LOS_Installer
             textBox_thư_mục.Text = "D:\\";
             //textBox_thư_mục.Text = "C:\\Users\\ooker\\Documents\\1 Công việc";
             path = textBox_thư_mục.Text;
+            labelKhôngTắtNgang.Visible = false;
         }
 
         public void button_chọn_thư_mục_Click(object sender, EventArgs e)
@@ -34,18 +35,13 @@ namespace LOS_Installer
                 MessageBox.Show("Thư mục không tồn tại");
                 return;
             }
-            if (!Directory.Exists(path))
-            {
-                MessageBox.Show("Thư mục không tồn tại");
-                return;
-            }
             //Directory.SetCurrentDirectory(path);
             label_chọn_thư_mục_chứa_dữ_liệu.ForeColor = SystemColors.ControlDark;
             button_chọn_thư_mục.Enabled = false;
             textBox_thư_mục.Enabled = false;
             buttonBắtĐầu.Enabled = false;
             buttonBắtĐầu.Text = "Đang cài...";
-
+            labelKhôngTắtNgang.Visible = true;
             var proc = new Process();
 
             await Task.Run(() => //Task.Run là để có thể vừa chạy script vừa sử dụng form
@@ -84,6 +80,7 @@ namespace LOS_Installer
             proc.StartInfo.Arguments = @"""obsidian://vault/Land of Spheres/== Bản đồ dành cho người mới ==""";
             proc.Start();
             buttonBắtĐầu.Text = "Đã cài xong";
+            labelKhôngTắtNgang.Visible = false;
         }
 
         private void textBox_thư_mục_TextChanged(object sender, EventArgs e)

@@ -9,11 +9,10 @@ git config --global core.quotePath false
 git config --global core.longpaths true
 git config --global core.autocrlf true
 git config --global core.safecrlf false
-git config --global --add safe.directory '*'
 
-git clone https://github.com/QuaCau-TheSphere/LandofSpheres
+git clone https://github.com/QuaCau-TheSphere/LandofSpheres "Land of Spheres"
+git config --global --add safe.directory *
 
-ren LandofSpheres "Land of Spheres" 
 set "doubleSlashes=%vaultPath:\=\\%" 
 set "obsidianString={"vaults":{"0123456789abcdef":{"path":"%doubleSlashes%","open":true}}}" 
 
