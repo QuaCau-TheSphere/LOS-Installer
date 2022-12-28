@@ -43,13 +43,13 @@ namespace LOS_Installer
             buttonBắtĐầu.Text = "Đang cài...";
             labelKhôngTắtNgang.Visible = true;
             var proc = new Process();
+            proc.StartInfo.Arguments = "\"" + path + "\"";
+            proc.StartInfo.UseShellExecute = true;
 
             await Task.Run(() => //Task.Run là để có thể vừa chạy script vừa sử dụng form
             {
                 //proc.StartInfo.FileName = @"Resources\Script test.bat";
                 proc.StartInfo.FileName = @"Resources\2. Cài đặt Obsidian và Git.bat";
-                proc.StartInfo.Arguments = "\"" + path + "\"";
-                proc.StartInfo.UseShellExecute = true;
                 proc.Start();
                 proc.WaitForExit();
 

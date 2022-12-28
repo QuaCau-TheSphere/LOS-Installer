@@ -1,0 +1,12 @@
+{
+  "accentColor": "#b19643",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "Custom",
+    "Horizontal tabs",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "supercharged-links-gen"
+  ]
+}
