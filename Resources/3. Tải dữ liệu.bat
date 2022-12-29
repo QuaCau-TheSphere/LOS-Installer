@@ -3,7 +3,6 @@ title 3. Tải dữ liệu
 set "clonePath=%1"
 set "vaultPath=%clonePath:"=%\Land of Spheres"
 set path=C:\Program Files\Git\cmd
-rem cd "%clonePath%"
 
 git config --global core.quotePath false
 git config --global core.longpaths true
@@ -21,5 +20,4 @@ C:
 mkdir "%appdata%\obsidian"
 cd "%appdata%\obsidian"
 echo %obsidianString%>obsidian.json
-reg add HKCU\Console /v QuickEdit /t REG_DWORD /d 1 /f
- 
+reg add HKCU\Console /v QuickEdit /t REG_DWORD /d 1 /f 
